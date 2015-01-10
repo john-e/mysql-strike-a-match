@@ -12,7 +12,17 @@ copy the libstrike_a_match.so to the mysql's plugin directory
 > cp libstrike_a_match.so /usr/lib/mysql/plugin/
 
 Log into mysql client and run
-> CREATE FUNCTION strike_a_match RETURNS REAL SONAME 'libstrike_a_match.so';
+> mysql> CREATE FUNCTION strike_a_match RETURNS REAL SONAME 'libstrike_a_match.so';
+
+###Sample Result
+
+
+
+
+
+
+
+
 
 
 
