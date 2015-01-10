@@ -14,7 +14,8 @@ copy the libstrike_a_match.so to the mysql's plugin directory
 Log into mysql client and run
 > mysql> CREATE FUNCTION strike_a_match RETURNS REAL SONAME 'libstrike_a_match.so';
 
-###Sample Result
+Credits:
+[@injecto](https://github.com/injecto/mymetrics)
 
 
 
