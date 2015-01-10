@@ -1,5 +1,5 @@
 # Mysql - Strike a Match
-Strike A Match Mysql UDF library based on algorithm by Simon White of Catalysoft
+Strike A Match Mysql UDF library based on string matching algorithm by Simon White of Catalysoft.
 
 [http://www.catalysoft.com/articles/StrikeAMatch.html](http://www.catalysoft.com/articles/StrikeAMatch.html)
 
