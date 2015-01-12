@@ -34,10 +34,6 @@ my_bool init(UDF_INIT *initid, UDF_ARGS *args, char *message) {
 		strcpy(message, "This function requires two string arguments");
 		return 1;
 	}
-	if(!args->args[0] || !args->args[1]) {
-		strcpy(message, "This function requires non-NULL arguments");
-		return 1;
-	}
 	return 0;
 }
 
